@@ -1,6 +1,6 @@
 cask "jetbrains-toolbox" do
   arch arm: "-arm64"
-  os macos: "dmg", linux: "tar.gz"
+  file_ext macos: "dmg", linux: "tar.gz"
 
   version "3.2,3.2.0.65851"
   sha256 arm:          "40bfaf8a40b6db5649415c2123f6206e264501f8efe1538e3d8e8eab62e19d81",
@@ -8,7 +8,7 @@ cask "jetbrains-toolbox" do
          x86_64_linux: "0000000000000000000000000000000000000000000000000000000000000000",
          arm64_linux:  "0000000000000000000000000000000000000000000000000000000000000000"
 
-  url "https://download.jetbrains.com/toolbox/jetbrains-toolbox-#{version.csv.second}#{arch}.#{os}"
+  url "https://download.jetbrains.com/toolbox/jetbrains-toolbox-#{version.csv.second}#{arch}.#{file_ext}"
   name "JetBrains Toolbox"
   desc "JetBrains tools manager"
   homepage "https://www.jetbrains.com/toolbox-app/"
