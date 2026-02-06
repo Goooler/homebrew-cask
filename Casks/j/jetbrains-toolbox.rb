@@ -49,8 +49,6 @@ cask "jetbrains-toolbox" do
   end
 
   on_linux do
-    # Note: Assumes binary is at root of tar.gz. May need adjustment
-    # based on actual archive structure (e.g., jetbrains-toolbox/jetbrains-toolbox)
     binary "#{staged_path}/jetbrains-toolbox"
 
     zap trash: [
