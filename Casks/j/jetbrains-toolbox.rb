@@ -5,8 +5,8 @@ cask "jetbrains-toolbox" do
   version "3.2,3.2.0.65851"
   sha256 arm:          "40bfaf8a40b6db5649415c2123f6206e264501f8efe1538e3d8e8eab62e19d81",
          intel:        "824c2be1b3c7c99af1b9af02daae2d5a2153dbfe9da502ab5690e08e7c7b812a",
-         x86_64_linux: "0000000000000000000000000000000000000000000000000000000000000000",
-         arm64_linux:  "0000000000000000000000000000000000000000000000000000000000000000"
+         x86_64_linux: "65a01f13773c1f235e568d0f33fbeb6f415b583aabedd32f83dec781f0303eba",
+         arm64_linux:  "4490e343749a24b7b79333ee2273477fdcdfbc3aa3678a446767005a97f2561b"
 
   url "https://download.jetbrains.com/toolbox/jetbrains-toolbox-#{version.csv.second}#{arch}.#{file_ext}"
   name "JetBrains Toolbox"
