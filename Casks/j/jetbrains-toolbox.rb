@@ -26,9 +26,9 @@ cask "jetbrains-toolbox" do
     end
   end
 
-  auto_updates true
-
   on_macos do
+    auto_updates true
+
     app "JetBrains Toolbox.app"
 
     uninstall launchctl: "com.jetbrains.toolbox",
