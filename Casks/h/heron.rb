@@ -13,8 +13,6 @@ cask "heron" do
     strategy :github_latest
   end
 
-  depends_on :macos
-
   app "com.tunjid.heron.app"
 
   zap trash: [
