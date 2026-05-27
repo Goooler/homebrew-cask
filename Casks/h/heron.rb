@@ -8,11 +8,6 @@ cask "heron" do
   desc "Adaptive offline-first Bluesky client"
   homepage "https://github.com/tunjid/heron"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
-
   app "com.tunjid.heron.app"
 
   zap trash: [
